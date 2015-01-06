@@ -1,0 +1,31 @@
+var info = [
+	me = {
+		name: "Mike",
+		height: "2 meters"
+	},
+	david = {
+		name: "David",
+		height: "3 meters"
+	}
+];
+
+var property = [
+"name",
+"age",
+"hair",
+"height"
+];
+
+var test = function (blah, thing){
+	return blah.hasOwnProperty(thing);
+};
+
+info.forEach(function(thing)) {
+	properties.forEach(function(prop) {
+	if (test(thing, prop)) {
+		console.log(prop + ":" +thing[prop])
+	} else {
+	console.log(thing.name + "does not have a property" + prop)
+	}
+	});
+});

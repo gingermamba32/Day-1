@@ -9,7 +9,7 @@ var diff = function(x, y) {
 	var z = x - y
 	if (z < 0) {
 		z = -z
-	} 
+	};
 	console.log( x + " minus " + y + " equals " + z)
 };
 

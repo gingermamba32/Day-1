@@ -7,6 +7,8 @@ var isTeacher = function(name) {
 	};
 };
 
+//this is the same thing
+
 var andrewIsATeacher = isTeacher("Andrew")
 
 console.log(isTeacher("dan"));
